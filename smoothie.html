@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Smoothie Machine</title>
+    <link rel="stylesheet" href="smoothie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Caveat:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Build Your Own Smoothie!</h1>
+    <form id="form">
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small (12oz)</option>
+            <option value="medium">Medium (16oz)</option>
+            <option value="large">Large (24oz)</option>
+        </select>
+        <br>
+        <label for="base">Base:</label>
+        <select id="base" name="base">
+            <option value="fruit-juice">Fruit Juice</option>
+            <option value="yogurt">Yogurt</option>
+            <option value="milk">Milk</option>
+            <option value="almond-milk">Almond Milk</option>
+            <option value="oat-milk">Oat Milk</option>
+        </select>
+        <br>
+        <h4>Fruits (select up to 3):</h4>
+        <input type="checkbox" id="fruit1" name="fruits[]" value="strawberry"> Strawberry<br>
+        <input type="checkbox" id="fruit2" name="fruits[]" value="banana"> Banana<br>
+        <input type="checkbox" id="fruit3" name="fruits[]" value="mango"> Mango<br>
+        <input type="checkbox" id="fruit4" name="fruits[]" value="pineapple"> Pineapple<br>
+        <input type="checkbox" id="fruit5" name="fruits[]" value="kiwi"> Kiwi<br>
+        <input type="checkbox" id="fruit6" name="fruits[]" value="blueberry"> Blueberry<br>
+        <input type="checkbox" id="fruit7" name="fruits[]" value="apple"> Apple<br>
+        <input type="checkbox" id="fruit8" name="fruits[]" value="dragon-fruit"> Dragon Fruit<br>
+        <br>
+        <h4>Add-ins (select up to 2):</h4>
+        <input type="checkbox" id="addin1" name="addins[]" value="spinach"> Spinach<br>
+        <input type="checkbox" id="addin2" name="addins[]" value="protein-powder"> Protein Powder<br>
+        <input type="checkbox" id="addin3" name="addins[]" value="honey"> Honey<br>
+        <input type="checkbox" id="addin3" name="addins[]" value="nuts"> Nuts<br>
+        <input type="checkbox" id="addin3" name="addins[]" value="chocolate-powder"> Chocolate Powder<br>
+        <input type="checkbox" id="addin3" name="addins[]" value="vanilla-powder"> Vanilla Powder<br>
+        <input type="checkbox" id="addin3" name="addins[]" value="oats"> Oats<br>
+        <br>
+        <button type="button" id="order-button">Order My Smoothie!</button>
+    </form>
+    <div id="output"></div>
+    <script src="smoothie.js"></script>
+</body>
+</html>

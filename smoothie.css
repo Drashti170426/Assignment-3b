@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    /* background-color: rgb(237, 191, 199); Light pastel background */
+    background-image: url(smoothie3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    /*text-align: center;*/
+    color: #c02942; /* Vibrant pink */
+    margin-bottom: 15px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  select, input[type="checkbox"] {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-flex;
+  }
+  
+  select:focus, input[type="checkbox"]:focus {
+    outline: none;
+    border: 1px solid #c02942; /* Pink highlight on focus */
+  }
+  
+  #smoothie-form {
+    align-content: center;
+  }
+  
+  #smoothie-form h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #c02942;
+    border-radius: 8px;
+    background-color: #fff; /* Light background for output */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  }
